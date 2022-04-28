@@ -1,13 +1,13 @@
 :root {
   
   /* Main Settings  */
-  --main-background-color: rgb(235, 235, 235);
+  /*--main-background-color: rgb(235, 235, 235);*/
 
   --text-primary-color: rgb(0, 0, 0);
   --text-secondary-color: rgb(68, 68, 68);
 
   /* Nav Settings  */
-  --nav-link-color: rgb(0, 0, 0);
+  --nav-link-color: rgb(255, 255, 255);      /*link color change here*/
   --nav-link-hover-color: rgb(87, 87, 87);
   --nav-link-hover-background-color: none;
   --nav-background-color: none;
@@ -29,7 +29,7 @@
   --card-shadow: 10px 10px 20px -13px rgb(121, 121, 121);
 
   /* Minting Area */
-  --minting-box-color: #212029;
+  --minting-box-color: #151A1F;
   --minting-box-heading-color: white;
   --minting-box-info-box-color: rgb(65, 65, 65);
   --minting-box-text-color: white;
@@ -39,6 +39,9 @@
   --minting-button-color: linear-gradient(180deg,#604ae5 0%,#813eee 100%);
   --minting-button-text-color: white;
 
+  background: url("star wing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
